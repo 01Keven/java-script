@@ -20,11 +20,12 @@
 </head>
 <body>  
     <h1>Usando Js</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, ab commodi veritatis nam esse minima laudantium et qui omnis dolor a nemo placeat, numquam facere, ipsa nesciunt in soluta ipsum?</p>
+    
     <script>
-         window.alert('salve man!!')
-         window.confirm('ta suave mermo?')
-         prompt('fala serio man precisa mentir nn kkj')
+         var sal1 = Number(prompt('Salario do 1 mes: '))
+         var sal2 = Number(prompt('Salario do 2 mes: '))
+         var s = sal1 + sal2
+         alert(`seu salario atual é: ${s.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)      
     </script>
 </body> 
 </html>
