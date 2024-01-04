@@ -1,5 +1,0 @@
- console.log('bom dia')
- for(var c = 1;c <= 5; c = c + 1){
-    console.log(c)
- }
- console.log('bom dia uma poha')
